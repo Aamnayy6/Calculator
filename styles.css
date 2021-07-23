@@ -35,6 +35,11 @@ button{
     background-color: rgb(63,176,172);
     border: none;
     border-radius: 25px;
+    animation: all 0.6s ease-in;
+}
+button-pop{
+    transform: scale(1,1);
+    background-color: rgb(132, 191, 218);
 }
 #equals{
     grid-row-start: 4;
