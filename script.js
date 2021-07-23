@@ -119,5 +119,5 @@ backspace.addEventListener('click', ()=>{
 })
 const allbuttons=document.querySelectorAll('button');
 allbuttons.forEach(button=>{
-    button.addEventListener('click', button.classList.add('button-pop'))
+    button.addEventListener('click', ()=>button.classlist.add('button-pop'))
 });
