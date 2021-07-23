@@ -118,6 +118,8 @@ backspace.addEventListener('click', ()=>{
     display.textContent=temp.slice(0, -1);
 })
 const allbuttons=document.querySelectorAll('button');
-allbuttons.forEach(button=>{
-    button.addEventListener('click', ()=>button.classlist.add('button-pop'))
+allbuttons.forEach(button => {
+    button.addEventListener('transitionend', ()=>button.classList.remove('button-pop'));
+    button.addEventListener('click', ()=> button.classList.add('button-pop'));
+  
 });
