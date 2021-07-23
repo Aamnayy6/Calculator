@@ -118,6 +118,6 @@ backspace.addEventListener('click', ()=>{
     display.textContent=temp.slice(0, -1);
 })
 const allbuttons=document.querySelectorAll('button');
-allbuttons.foreach(button=>{
-    button.addEventListener('click', button.classlist.add('button-pop'))
+allbuttons.forEach(button=>{
+    button.addEventListener('click', button.classList.add('button-pop'))
 });
