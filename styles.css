@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    background-color: rgb(1 2 2);
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-row-gap:10px;
+    grid-column-gap: 10px;
+    min-height: 300px;
+}
+.display{
+    border: 2px solid black;
+    border-radius: 7px; 
+    margin-bottom: 2rem;
+    text-align: right;
+   width: 80%;
+   padding: 25px;
+   box-shadow: inset 5px 5px 10px rgb(1 2 2);
+   background-color: #ada9a9;
+}
+.boundary{
+
+    box-shadow: 5px 5px 12px rgb(167, 161, 161, 0.5);
+    padding: 1rem;
+    max-width: 250px;
+    min-height: 350px;
+    margin:5rem auto;
+    border-radius: 15px;
+    background-color: rgb(221,223, 212);
+}
+button{
+    padding: 0.8rem;
+    background-color: rgb(63,176,172);
+    border: none;
+    border-radius: 25px;
+}
+#equals{
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 4;
+}
