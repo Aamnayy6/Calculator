@@ -103,6 +103,7 @@ eval.addEventListener('click', ()=>{
     if(!flag){
     b=display.textContent;
     evaluate();
+    a="";
     flag=1;
     }
 })
